@@ -247,7 +247,7 @@ if __name__ == "__main__":
     # Start the asyncio loop in a separate thread
     asyncio_thread = Thread(target=start_asyncio_thread)
     asyncio_thread.start()
-
+    
     # Start the bot
     bot.polling(none_stop=True)
 
